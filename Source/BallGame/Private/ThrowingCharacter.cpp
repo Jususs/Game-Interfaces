@@ -77,6 +77,9 @@ void AThrowingCharacter::StopShootBall()
 	bIsShooting = false; 
 	ShootingTime = 0.0f;
 	ShootingStrength = 0; 
+
+	ShootingStrengthUpdated(ShootingTime);
+
 }
 
 void AThrowingCharacter::SpawnAndGrabBall()
