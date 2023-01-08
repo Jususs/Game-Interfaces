@@ -4904,6 +4904,59 @@
 					}
 				}
 			}
+		},
+		"/Game/BallGame/UI/W_Quit":
+		{
+			"graphData":
+			{
+				"581F0720446447920F79EFA15AAF8617":
+				{
+					"nodeData":
+					{
+						"1D2861BC443A13FCC32A50BF7498C124":
+						{
+							"cachedNodeSize":
+							{
+								"x": 282,
+								"y": 182
+							},
+							"cachedPins":
+							{
+								"248D6F72470B94489A600884D729C48C": 41,
+								"D8CEFDEC4A0E48613DA426B58AFF4037": 68,
+								"72BB0C3F4AE8E0040025DA80CB3774BA": 108,
+								"F2AF74EB4B4367ECD2CF31981D766652": 157,
+								"4EC7DB7240AD3916B4C4FFAB01CA7C5C": 41
+							}
+						},
+						"917B7EB54B134570AAD6CA9E918D346D":
+						{
+							"cachedNodeSize":
+							{
+								"x": 219,
+								"y": 58
+							},
+							"cachedPins":
+							{
+								"5C226CE84A27E7E9C7E860ADD30FF3F1": 12,
+								"D59F88F54CA98CF426E60FA18BEAE5B1": 41
+							}
+						}
+					}
+				}
+			}
+		},
+		"/Game/BallGame/UI/W_MaxHits":
+		{
+			"graphData":
+			{
+				"5D72336A474379AFF307C2A37161BD5A":
+				{
+					"nodeData":
+					{
+					}
+				}
+			}
 		}
 	},
 	"bookmarkedFolders": [],
