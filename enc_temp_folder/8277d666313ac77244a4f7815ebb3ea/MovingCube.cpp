@@ -49,7 +49,7 @@ void AMovingCube::OnCompHit(UPrimitiveComponent* HitComp, AActor* OtherActor, UP
 {
 	ABall* HitActor = Cast<ABall>(OtherActor);
 
-	if (HitActor != nullptr && HitActor->bWasShot)
+	if (HitActor != nullptr)
 	{
 		// Trigger hit event
 		HitByBall();

@@ -10,8 +10,6 @@ class UBillboardComponent;
 class ABall;
 class UPhysicsHandleComponent;
 
-DECLARE_DYNAMIC_MULTICAST_DELEGATE(FBallShot);
-
 UCLASS()
 class BALLGAME_API AThrowingCharacter : public ACharacter
 {
@@ -87,9 +85,7 @@ private:
 	/** If the player is currently shooting, meaning they have the left mouse button clicked. */
 	bool bIsShooting = false; 
 
-	/** Fired when a Ball is shot*/
-	UPROPERTY(BlueprintAssignable)
-	FBallShot OnBallShot;
+	
 
 	
 
